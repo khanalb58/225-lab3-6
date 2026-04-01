@@ -5,7 +5,7 @@ pipeline {
         DOCKER_CREDENTIALS_ID = 'roseaw-dockerhub'
         DOCKER_IMAGE = 'cithit/khanalb'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
-        GITHUB_URL = 'https://github.com/khanalb58/lab3-6.git'                                          //<------change this
+        GITHUB_URL = 'https://github.com/khanalb58/225-lab3-6.git'                                          //<------change this
         KUBECONFIG = credentials('khanalb-225')                                                         //<------change this
     }
 
